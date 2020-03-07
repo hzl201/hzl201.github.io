@@ -846,7 +846,7 @@ $(function () {
             volume: Number('0.7'),
             listFolded: 'false' === 'true',
             listMaxHeight: '197px',
-            audio: JSON.parse('[{"name":"Beautiful World","artist":"Westlife","url":"http://music.163.com/song/media/outer/url?id=20707408.mp3","cover":"https://p2.music.126.net/MEWr-THANcYy-1jvx334_Q==/109951163167214019.jpg?param=130y130"},{"name":"River Flows in You","artist":"Yiruma","url":"http://music.163.com/song/media/outer/url?id=26237342.mp3","cover":"https://p2.music.126.net/8ZRSyI0ZN_4ah8uzsNd1mA==/2324367581169008.jpg?param=130y130"},{"name":"Hello My Love","artist":"Westlife","url":"http://music.163.com/song/media/outer/url?id=1338728670.mp3","cover":"https://p2.music.126.net/P2_COhPmlhsOpoj31DDLeA==/109951163785867445.jpg?param=130y130"},{"name":"If I Let You Go","artist":"Westlife","url":"http://music.163.com/song/media/outer/url?id=27220254.mp3","cover":"https://p2.music.126.net/TcOOoZSbISGT9AkhUtwOsg==/5644892697128237.jpg?param=130y130"},{"name":"Señorita","artist":"Shawn Mendes/Camila Cabello","url":"http://music.163.com/song/media/outer/url?id=1373168742.mp3","cover":"https://p2.music.126.net/eSrLKe5g3U8jX-lb629q6A==/109951164162885535.jpg?param=130y130"}]')
+            audio: JSON.parse('[{"name":"千年の虹","artist":"阿兰","url":"http://music.163.com/song/media/outer/url?id=22817060.mp3","cover":"http://p1.music.126.net/wgbcjy8sIDTVQ4UKMjRtPw==/858718581317063.jpg?param=130y130"},{"name":"River Flows in You","artist":"Yiruma","url":"http://music.163.com/song/media/outer/url?id=26237342.mp3","cover":"https://p2.music.126.net/8ZRSyI0ZN_4ah8uzsNd1mA==/2324367581169008.jpg?param=130y130"},{"name":"Hello My Love","artist":"Westlife","url":"http://music.163.com/song/media/outer/url?id=1338728670.mp3","cover":"https://p2.music.126.net/P2_COhPmlhsOpoj31DDLeA==/109951163785867445.jpg?param=130y130"},{"name":"If I Let You Go","artist":"Westlife","url":"http://music.163.com/song/media/outer/url?id=27220254.mp3","cover":"https://p2.music.126.net/TcOOoZSbISGT9AkhUtwOsg==/5644892697128237.jpg?param=130y130"},{"name":"Señorita","artist":"Shawn Mendes/Camila Cabello","url":"http://music.163.com/song/media/outer/url?id=1373168742.mp3","cover":"https://p2.music.126.net/eSrLKe5g3U8jX-lb629q6A==/109951164162885535.jpg?param=130y130"}]')
         });
     });
 </script>
@@ -904,6 +904,54 @@ $(function () {
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2020/03/07/ce-shi/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="测试">
+                            
+                            <span class="card-title">测试</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            hexo搭建完毕GitHub pages地址https://hzl201.github.io/但国内访问速度慢。
+vps发布66.98.115.122上通过手动上传ftp的方式复制一份访问地址：http://hzl201.tk/国内访问速度
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-03-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/生活/" class="post-category" target="_blank">
+                                    生活
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/博客/" target="_blank">
+                            <span class="chip bg-color">博客</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -992,7 +1040,7 @@ $(function () {
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">1.2k</span> 字
+                <span class="white-color">1.3k</span> 字
             
 
             
@@ -1146,20 +1194,8 @@ $(function () {
 
         <!-- 鼠标点击烟花爆炸效果  洪卫 shw2018 add 2019.09.09 -->
         
-            <canvas class="fireworks" style="position: fixed; left: 0; top: 0; z-index: 1; pointer-events: none;"></canvas>
-            <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
-            <script type="text/javascript" src="/js/fireworks.js"></script>
-        
 
         <!-- 背景雪花飘落特效洪卫 shw2018 add 2019.09.10 -->
-        
-            <script type="text/javascript">
-            //只在桌面版网页启用特效
-            var windowWidth = $(window).width();
-            if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
-            }
-            </script>
         
 
         <!-- 鼠标点击文字特效 洪卫 shw2018 add 2019.09.10-->

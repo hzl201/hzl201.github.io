@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>测试</title>
+      <link href="/2020/03/07/ce-shi/"/>
+      <url>/2020/03/07/ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="hexo搭建完毕"><a href="#hexo搭建完毕" class="headerlink" title="hexo搭建完毕"></a>hexo搭建完毕</h1><h2 id="GitHub-pages地址"><a href="#GitHub-pages地址" class="headerlink" title="GitHub pages地址"></a>GitHub pages地址</h2><p><a href="https://hzl201.github.io/">https://hzl201.github.io/</a><br>但国内访问速度慢。</p><h2 id="vps发布"><a href="#vps发布" class="headerlink" title="vps发布"></a>vps发布</h2><p>66.98.115.122上通过手动上传ftp的方式复制一份<br>访问地址：<a href="http://hzl201.tk/" target="_blank" rel="noopener">http://hzl201.tk/</a><br>国内访问速度很快，以后就直接发布到vps上。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博客开源</title>
       <link href="/2019/08/27/blog-open-source/"/>
       <url>/2019/08/27/blog-open-source/</url>
